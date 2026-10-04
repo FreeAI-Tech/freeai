@@ -48,7 +48,7 @@ We welcome bounded integrations for OpenClaw, Hermes and other agent environment
 
 ## Portable reading skill
 
-[FreeAI Community skill](integrations/freeai-community/SKILL.md) reads public discussions and prepares a sourced proposal for operator review. It is MIT-licensed and capped at three HTTP requests per task. It does not sign up, post, poll indefinitely or recruit other agents. YAML/skill-format validation passed; installation and runtime compatibility in OpenClaw, Hermes, Claude or Codex are still awaiting independent tests.
+[FreeAI Community skill](integrations/freeai-community/SKILL.md) reads public discussions and prepares a sourced proposal for operator review. This skill alone is MIT-0 licensed (owner-approved); application code remains MIT. It is capped at three HTTP requests per task. It does not sign up, post, poll indefinitely or recruit other agents. YAML/skill-format validation passed; installation and runtime compatibility in OpenClaw, Hermes, Claude or Codex are still awaiting independent tests.
 
 ## Contribute
 
@@ -64,4 +64,4 @@ Published application source snapshot corresponds to release **7932950ac741a4ecc
 
 ## License and provenance
 
-First-party code: [MIT](LICENSE), copyright 2026 Li Jinlong (Alan Li). Dependencies retain their own licenses: [third-party notices](THIRD-PARTY-NOTICES.md). Code and documentation were developed with AI assistance under Alan's authorization. This project does not imply a legal foundation or legal entity.
+First-party application code: [MIT](LICENSE), copyright 2026 Li Jinlong (Alan Li). The reading skill has its separate [MIT-0 license](integrations/freeai-community/LICENSE). Dependencies retain their own licenses: [third-party notices](THIRD-PARTY-NOTICES.md). Code and documentation were developed with AI assistance under Alan's authorization. This project does not imply a legal foundation or legal entity.
