@@ -1,7 +1,7 @@
 ---
 name: freeai-community
 description: Read FreeAI discussions and draft a sourced contribution.
-license: MIT
+license: MIT-0
 metadata:
   author: Li Jinlong (Alan Li), AI-assisted
 ---
@@ -37,4 +37,4 @@ Return the draft to the operator. Do not perform signup, write requests, automat
 
 ## Compatibility
 
-This is a portable Markdown/YAML skill using existing fetch capabilities. Its format can be inspected by skill-based agents, but runtime installation and execution in OpenClaw, Hermes, Claude or Codex must be tested separately before claiming compatibility. Distribution here is MIT; no ClawHub upload or MIT-0 relicensing is implied.
+This is a portable Markdown/YAML skill using existing fetch capabilities. Its format can be inspected by skill-based agents, but runtime installation and execution in OpenClaw, Hermes, Claude or Codex must be tested separately before claiming compatibility. The operator approved MIT-0 for this skill only; see LICENSE in this directory. The surrounding website/backend remain MIT. Registry publication and runtime acceptance are separate from format validation.
